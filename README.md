@@ -16,7 +16,9 @@ Pentru antrenarea modelului am folosit următoarele seturi de date:
 ## Prelucrarea setului de date
 
 Funcția processing_data primește calea către setul de date. Setul de date este citit, iar informatia regasita in coloana 'pixels', respenctiv 'emotions' este transpusa intr-un array, respectiv o matrice.
+
 Informația aflată in X, respectiv în y este salvată în 'dataX', respectiv 'dataY'.
+
 Pentru antrenarea/ testarea modelului setul de date este împărțit prin funcția **split_data** în două subseturi, unul de antrenare și unul de testare. Deasemenea informația este salvată în 'dataX_train', 'dataY_train', 'dataX_test' și 'dataY_test'.
 
 # Arhitectura modelului
@@ -41,6 +43,7 @@ Modelul a fost compilat cu *categorical_crossentropy* ca *loss function* și *Ad
 # Antrenarea și testarea modelului
 Pentru a preveni overfitting-ul am antrenat modelul folosind k-fold cross validation.
 Funcția **k_fold** realizează antrenarea modelului.
+
 Setul de date de antrenare a fost împărțit in k = 5 subseturi, care la rândul lor au fost  împărțite in seturi de câte 64 de imagini și au fost trecute prin model de 100 de ori. 
 ![](https://picasaweb.google.com/107503410125380287446/6730451544730563857#6730451547347497458 "KFold")
 
