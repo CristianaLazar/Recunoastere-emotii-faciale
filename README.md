@@ -49,6 +49,7 @@ Setul de date de antrenare a fost împărțit in k = 5 subseturi, care la rându
 ## Matrice de confuzie
 Pentru a afla ce emotii sunt confundate am creat o matrice de conuzie:
 ![Matricea de confuzie](https://github.com/CristianaLazar/Recunoastere-emotii-faciale/blob/master/images/ConfMat.png "ConfMat")
+
 ![Matricea de precizie](https://github.com/CristianaLazar/Recunoastere-emotii-faciale/blob/master/images/PrecMat.png "PredMat")
 
 Se observa astfel ca emotii ca furie si triste sau tristete si suparare sunt usor de confundat de catre model.
