@@ -52,7 +52,7 @@ Setul de date de antrenare a fost împărțit in k =  subseturi, care la rândul
 
 ## Matrice de confuzie
 Pentru a afla ce emoții sunt confundate am creat o matrice de confuzie:
-![Matricea de confuzie](https://picasaweb.google.com/107503410125380287446/6730478608443094145#6730478609001134210 "ConfMat")github.com/CristianaLazar/Recunoastere-emotii-faciale/blob/master/images/ConfMat.png "ConfMat")
+![Matricea de confuzie](https://github.com/CristianaLazar/Recunoastere-emotii-faciale/blob/master/images/ConfMat.png "ConfMat")
 
 ![Matricea de precizie](https://github.com/CristianaLazar/Recunoastere-emotii-faciale/blob/master/images/PrecMat.png "PredMat")
 
