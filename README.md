@@ -45,7 +45,7 @@ Pentru a preveni overfitting-ul am antrenat modelul folosind k-fold cross valida
 Funcția **k_fold** realizează antrenarea modelului.
 
 Setul de date de antrenare a fost împărțit in k = 5 subseturi, care la rândul lor au fost  împărțite in seturi de câte 64 de imagini și au fost trecute prin model de 100 de ori. 
-![](https://picasaweb.google.com/107503410125380287446/6730451544730563857#6730451547347497458 "KFold")
+![KFold](https://github.com/CristianaLazar/Recunoastere-emotii-faciale/blob/master/images/KFold.png "KFold")
 
 În urma antrenării s-a obținut o acuratețe de 0.6536 pe setul de date de validare, iar acuratețea pe setul de date de testare este 0.6465.
 
