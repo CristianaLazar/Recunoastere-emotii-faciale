@@ -3,6 +3,9 @@
 Emoțiile pot fi clasificate in 7 categorii - Furie, Dezgust, Frica, Fericire, Supărare, Surprindere și Neutru.
 In acest proiect, am antrenat un model ce diferențiază aceste emoții.
 
+# Fisiere
+In fisierul Fer.py de resaseste intregul proiect
+
 # Data-set
 Pentru antrenarea modelului am folosit următoarele seturi de date:
 
@@ -29,7 +32,7 @@ Pentru antrenarea/ testarea modelului setul de date este împărțit prin funcț
 Funcțiile de activare folosite sunt **ReLu** și **Softmax**
 
 **Model summary**
-_________________________________________________________________
+"_________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
 conv2d_33 (Conv2D)           (None, 46, 46, 64)        640       
@@ -99,7 +102,7 @@ dense_20 (Dense)             (None, 7)                 903
 Total params: 5,906,119
 Trainable params: 5,902,279
 Non-trainable params: 3,840
-_________________________________________________________________
+_________________________________________________________________"
 
 
 Modelul a fost compilat cu *categorical_crossentropy* ca *loss function* și *Adam optimizer*
