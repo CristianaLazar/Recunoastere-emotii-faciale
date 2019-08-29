@@ -1,6 +1,6 @@
 # Recunoaștere emoții faciale
 
-Emoțiile pot fi clasificate in 7 categorii - Furie, Dezgust, Frica, Fericire, Supărare, Surprindere și Neutru.
+Emoțiile pot fi clasificate in 7 categorii - Furie, Dezgust, Frica, Fericire, Tristete, Surprindere și Neutru.
 In acest proiect, am antrenat un model ce diferențiază aceste emoții.
 
 # Fisiere
@@ -55,4 +55,4 @@ Pentru a afla ce emotii sunt confundate am creat o matrice de conuzie:
 
 ![Matricea de precizie](https://github.com/CristianaLazar/Recunoastere-emotii-faciale/blob/master/images/PrecMat.png "PredMat")
 
-Se observa astfel ca emotii ca furie si triste sau tristete si suparare sunt usor de confundat de catre model.
+Se observa astfel ca emotii ca furie si tristete sau tristete si frica sunt usor de confundat de catre model.
