@@ -32,6 +32,7 @@ Pentru antrenarea/ testarea modelului setul de date este împărțit prin funcț
 Funcțiile de activare folosite sunt **ReLu** și **Softmax**
 
 **Model summary**
+
 ![Model summary](https://github.com/CristianaLazar/Recunoastere-emotii-faciale/blob/master/images/modelSummary.png "Model")
 
 
