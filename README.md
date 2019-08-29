@@ -4,7 +4,7 @@ Emoțiile pot fi clasificate in 7 categorii - Furie, Dezgust, Frica, Fericire, S
 In acest proiect, am antrenat un model ce diferențiază aceste emoții.
 
 # Fisiere
-In fisierul Fer.py de resaseste intregul proiect
+In fisierul Fer.py de regaseste intregul proiect
 
 # Data-set
 Pentru antrenarea modelului am folosit următoarele seturi de date:
